@@ -39,6 +39,9 @@
 		FA6552CD263FF65100835AEC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D9DBF26370BD000B9CB8D /* CircleImage.swift */; };
 		FA6552CF263FF6D100835AEC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6552CE263FF6D100835AEC /* LandmarkDetail.swift */; };
 		FA6552D1263FFCFA00835AEC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6552D0263FFCFA00835AEC /* LandmarkList.swift */; };
+		FA6552D3264015FF00835AEC /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6552D2264015FF00835AEC /* LandmarkCommands.swift */; };
+		FA6552D42640160B00835AEC /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6552D2264015FF00835AEC /* LandmarkCommands.swift */; };
+		FA6552D626401B9D00835AEC /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6552D526401B9D00835AEC /* LandmarkSettings.swift */; };
 		FA68A7C0263C668F00C93601 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68A7BF263C668F00C93601 /* ProfileEditor.swift */; };
 		FA6E70FD263AEC1400B2939A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E70FC263AEC1400B2939A /* Profile.swift */; };
 		FA6E7100263AED6200B2939A /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E70FF263AED6200B2939A /* ProfileHost.swift */; };
@@ -151,6 +154,8 @@
 		FA6552BD263FF5A800835AEC /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		FA6552CE263FF6D100835AEC /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		FA6552D0263FFCFA00835AEC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		FA6552D2264015FF00835AEC /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		FA6552D526401B9D00835AEC /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		FA68A7BF263C668F00C93601 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		FA6E70FC263AEC1400B2939A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		FA6E70FF263AED6200B2939A /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
@@ -327,6 +332,8 @@
 			children = (
 				FA6552B5263FF5A700835AEC /* ContentView.swift */,
 				FA6552CE263FF6D100835AEC /* LandmarkDetail.swift */,
+				FA6552D2264015FF00835AEC /* LandmarkCommands.swift */,
+				FA6552D526401B9D00835AEC /* LandmarkSettings.swift */,
 				FA6552B7263FF5A800835AEC /* Assets.xcassets */,
 				FA6552BC263FF5A800835AEC /* Info.plist */,
 				FA6552BD263FF5A800835AEC /* MacLandmarks.entitlements */,
@@ -592,6 +599,7 @@
 			files = (
 				FA4D9DB22637096100B9CB8D /* ContentView.swift in Sources */,
 				FA4D9DC326370C5100B9CB8D /* MapView.swift in Sources */,
+				FA6552D42640160B00835AEC /* LandmarkCommands.swift in Sources */,
 				FA4D9DB02637096100B9CB8D /* LandmarksApp.swift in Sources */,
 				FA6E710B263AFF5100B2939A /* RotatedBadgeSymbol.swift in Sources */,
 				FAF2910E263D94F100AAC3DE /* FeatureCard.swift in Sources */,
@@ -631,8 +639,10 @@
 			files = (
 				FA6552C2263FF65100835AEC /* FavoriteButton.swift in Sources */,
 				FA6552C5263FF65100835AEC /* MapView.swift in Sources */,
+				FA6552D626401B9D00835AEC /* LandmarkSettings.swift in Sources */,
 				FA6552C1263FF65100835AEC /* Hike.swift in Sources */,
 				FA6552C9263FF65100835AEC /* Landmark.swift in Sources */,
+				FA6552D3264015FF00835AEC /* LandmarkCommands.swift in Sources */,
 				FA6552CF263FF6D100835AEC /* LandmarkDetail.swift in Sources */,
 				FA6552B6263FF5A700835AEC /* ContentView.swift in Sources */,
 				FA6552C3263FF65100835AEC /* LandmarksApp.swift in Sources */,
