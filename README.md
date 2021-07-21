@@ -1,12 +1,16 @@
 # Landmarks
-SwiftUI tutorial app from Apple
+
+### Relevant frameworks used:
+* SwiftUI
+* UIKit
+* WatchKit
+* MapKit
+* CoreLocation
+* Combine
+* UserNotification
+
+### Landmarks is a tutorial app made by Apple
 https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
-
-1st part: Creating and Combining Views
-
-2nd part: Building Lists and Navigation
-
-3rd part: Handling User Input
 
 Landmarks is a SwiftUI app for iOS, watchOS and MacOS that shows some major landmarks in the USA. For each landmark there is a picture, a brief description and a map view centered to the landmark location. It allows to save your favorites and to filter the landmarks by category.
 
